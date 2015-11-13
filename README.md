@@ -8,8 +8,7 @@ Edit config.php, and add directories to the $backups array, and also change the 
 Then, add a cronjob to call the script, which usually works like this, from your terminal:
 crontab -a
 
-And add this line:
- "* * * * * /usr/bin/php /path/to/the/backup_cript.php"
+And add this line: * * * * * /usr/bin/php /path/to/the/backup_cript.php
  
  (this assumes php in installed at the typical /usr/bin/php directory)
 
