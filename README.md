@@ -10,7 +10,7 @@ crontab -a
 
 And add this line: * * * * * /usr/bin/php /path/to/the/backup_cript.php
  
- (this assumes php in installed at the typical /usr/bin/php directory)
+ (this assumes php is installed at the typical /usr/bin/php directory)
 
 You can replace the asterisks with these values, in order:
 minute (from 0 to 59)
