@@ -20,7 +20,7 @@ month (from 1 to 12)
 day of week (from 0 to 6) (0=Sunday)
 (* means every)
 
-You can also do ranges (ie: * * * * 0-2 for only Sunday to Tuesday), as well as multiples (* * * * 1,3 for only Monday and Wednesday, etc)
+You can also do ranges (ie: * * * * 0-2 for only Sunday to Tuesday), as well as multiples (* * * * 1,3,5 for only Monday and Wednesday and Friday, etc)
 
 Then save the file, and the cronjab will automatically be activated.
 
