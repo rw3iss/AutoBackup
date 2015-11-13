@@ -9,7 +9,7 @@ Then, add a cronjob to call the script, which usually works like this, from your
 crontab -a
 
 And add this line:
- * * * * * /usr/bin/php /path/to/the/backup_cript.php
+ "* * * * * /usr/bin/php /path/to/the/backup_cript.php"
  
  (this assumes php in installed at the typical /usr/bin/php directory)
 
