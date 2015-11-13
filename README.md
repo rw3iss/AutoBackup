@@ -9,7 +9,9 @@ Then, add a cronjob to call the script, which usually works like this, from your
 crontab -a
 
 And add this line:
-* * * * * /usr/bin/php /path/to/the/backup_cript.php
+ * * * * * /usr/bin/php /path/to/the/backup_cript.php
+ 
+ (this assumes php in installed at the typical /usr/bin/php directory)
 
 You can replace the asterisks with these values, in order:
 minute (from 0 to 59)
@@ -20,3 +22,6 @@ day of week (from 0 to 6) (0=Sunday)
 (* means every)
 
 You can also do ranges (ie: * * * * 0-2 for only Sunday to Tuesday), as well as multiples (* * * * 1,3 for only Monday and Wednesday, etc)
+
+Then save the file, and the cronjab will automatically be activated.
+
