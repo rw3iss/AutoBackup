@@ -8,4 +8,4 @@ $backups = array(
 	"/Users/rw3iss/.bash_profile"
 );
 
-$backupDestination = "/Volumes/SD 16GB/_OSX_AUTO_BACKUP";
+$backupDestination = ""; //change this to your backup path
