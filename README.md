@@ -8,7 +8,7 @@ Edit config.php, and add directories to the $backups array, and also change the 
 Then, add a cronjob to call the script, which usually works like this, from your terminal:
 crontab -a
 
-And add this line: * * * * * /usr/bin/php /path/to/the/backup_cript.php
+And add this line: * * * * * /usr/bin/php /path/to/the/backup_script.php
  
  (this assumes php is installed at the typical /usr/bin/php directory)
 
@@ -24,7 +24,7 @@ You can also do ranges (ie: * * * * 0-2 for only Sunday to Tuesday), as well as 
 
 Example: To run the script every night at midnight, enter:
 
-0 0 * * * /usr/bin/php /path/to/the/backup_cript.php
+0 0 * * * /usr/bin/php /path/to/the/backup_script.php
 
 Then save the file, and the cronjab will automatically be activated.
 
