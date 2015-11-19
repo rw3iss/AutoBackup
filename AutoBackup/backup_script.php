@@ -17,13 +17,14 @@ foreach($backups as $bl) {
 		$destinationDirectory = dirname($fullBackupDestination);
 		ensure_directory($destinationDirectory);
 		//ensure_directory($destinationDirectory);
-		echo "\nCopying: " . $bl;
-		echo "\nTo: " . $fullBackupDestination;
+		print "\nCopying: " . $bl;
+		print "\nTo: " . $fullBackupDestination;
 		copy($bl, $fullBackupDestination);
 	}
 
-	echo "\nBacked up: " . $fullBackupDestination;
+	print "\n\nSuccess!";
 }
+print "\n\nDone.\n";
 
 function ensure_directory($dir) {
 	if (!file_exists($dir)) {
