@@ -23,7 +23,8 @@ You can replace the asterisks with these values, in order:
 You can also do ranges (ie: * * * * 0-2 for only Sunday to Tuesday), as well as multiples (* * * * 1,3,5 for only Monday and Wednesday and Friday, etc)
 
 Example: To run the script every night at midnight, enter:
- 0 0 * * * /usr/bin/php /path/to/the/backup_cript.php
+
+0 0 * * * /usr/bin/php /path/to/the/backup_cript.php
 
 Then save the file, and the cronjab will automatically be activated.
 
