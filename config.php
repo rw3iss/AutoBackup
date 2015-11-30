@@ -1,9 +1,11 @@
 <?php
 
+//array of directories and static filenames to backup
 $backups = array(
-	"/Users/rw3iss/Library/Preferences/Klok2.DD7F2188B985C2439837C76B42A187050457E61B.1/Local Store/klok.db",
-//	"/usr/local/var/mysql",
-	"/Users/rw3iss/Library/Containers/com.apple.Notes/Data/Library/Notes/"
+	/* ie:
+	 * "/Users/me/Pictures",
+	 * "/Users/me/Documents/timesheet.xlsx"
+	 */
 );
 
-$backupDestination = "/Volumes/SD 64GB/_OSX_AUTO_BACKUP";
+$backupDestination = ""; //ie. "/Volumes/SD CARD/_backup_dir";
